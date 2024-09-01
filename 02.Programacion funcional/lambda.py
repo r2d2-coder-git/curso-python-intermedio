@@ -1,4 +1,5 @@
-# El paradigma funcional es popular porque ofrece varias ventajas sobre otros paradigmas de programación. El código funcional es:
+# El paradigma funcional es popular porque ofrece varias ventajas sobre otros paradigmas de programación. 
+# El código funcional es:
 
 # De alto nivel: Describe el resultado deseado en lugar de especificar explícitamente los pasos necesarios para conseguirlo. Las sentencias
 # simples tienden a ser concisas, pero tienen mucha fuerza.

@@ -9,7 +9,7 @@
 # una parte del código y hacerlo más legible.
 
 # 2. Las funciones anidadas también pueden ser útiles para compartir una parte del código entre varias funciones. En este caso,
-# podemos definir la función anidada una vez y luego usarla desde varias funciones.
+# podemos definir la función anidada una vez y luego usarla desde varias funciones con decoradores.
 
 # 3. Las funciones anidadas también pueden ser útiles para crear funciones "auxiliares" que solo necesiten ser utilizadas en el contexto de otra
 # función. En este caso, podemos definir la función anidada justo donde la necesitemos y luego usarla para realizar una tarea específica dentro
@@ -35,7 +35,7 @@ def fuera(x):
 
 add_five = fuera(5)
 result = add_five(5, 5)
-
+print(result)
 ############################# DECORADORES SIN PARAMETROS #####################################
 
 
@@ -83,17 +83,17 @@ dividir(2, 0)
 
 
 def estrella(func):
-    def funcion_interna(*args, **kwargs):
+    def funcion_interna(msg):
         print("*" * 15)
-        func(*args, **kwargs)
+        func(msg)
         print("*" * 15)
     return funcion_interna
 
 
 def porcentaje(func):
-    def funcion_interna(*args, **kwargs):
+    def funcion_interna(msg):
         print("%" * 15)
-        func(*args, **kwargs)
+        func(msg)
         print("%" * 15)
 
     return funcion_interna

@@ -45,7 +45,6 @@ class Mascota():
     # @nombre_atributo.setter
     # def nombre_atributo(self, value):
     #   self.__nombre_atributo = value
-
     @property
     def nombre(self):
         return self.__nombre
