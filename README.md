@@ -1,6 +1,6 @@
 # Curso Intermedio de Python 🐍
 
-<img src="Imagenes/readme.webp/" alt="Descripción de la imagen" height=300 width="400">
+<img src="Imagenes/readme.webp/" alt="Descripción de la imagen" height=400 width="400">
 
 ¡Bienvenido al curso intermedio de Python! Este repositorio contiene el código y los recursos asociados al curso para aprender Python a un nivel intermedio. Cada carpeta contiene ejemplos, ejercicios y explicaciones detalladas de varios temas importantes en Python.
 
